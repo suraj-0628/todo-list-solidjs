@@ -8,9 +8,9 @@ function App() {
       <img src={banner} alt="" />
 
       <div class="grid grid-cols-4 my-10 ">
-      <Card/>
-      <Card/>
-      <Card/>
+      <Card title="Breaking Bad Tee"/>
+      <Card title="Breaking Bad Shirt"/>
+      <Card title="Breaking Bad Hoodie"/>
       </div>
       
       
