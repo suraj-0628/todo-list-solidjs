@@ -1,13 +1,20 @@
-import { createSignal } from "solid-js"
-
+import banner from "./assets/Breaking-Bad.jpg"
+import { Card } from "./components/card"
 
 function App() {
- const [todo,settodo]=createSignal("enter your todo list")
-
   return (
-    <div class="te">
-      <h1>TODO</h1>
-      <input type="text" onInput={todo}/>
+    <div class="">
+     <header><h1>Breaking Bad Merch</h1></header>
+      <img src={banner} alt="" />
+
+      <div class="grid grid-cols-4 my-10 ">
+      <Card/>
+      <Card/>
+      <Card/>
+      </div>
+      
+      
+      
     </div>
   )
 }
